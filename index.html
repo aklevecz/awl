@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script id="init">
+      window.INIT = {
+        ADMIN_QUEUES: ["queue:admin:0", "queue:admin:1"],
+        BASE_PATH: "",
+        CHAT_QUEUES: ["queue:chat:0", "queue:chat:1"],
+        FIREBASE_API_KEYS_MAP_JSON: {
+          lessthan3: "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-00": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-01": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-02": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-03": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-04": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-05": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-06": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-07": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-08": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "lessthan3-09": "AIzaSyD6OhCRWmpfwPmgSlNz1uZK4lhrLBFpFLs",
+          "maestro-01": "AIzaSyAmmiUvywQKjjDTstU6Mn3RTVJ1RSa0Cpg",
+          "maestro-02": "AIzaSyAs3L1g7tEgGJaf0t7IIRze6GlmAqwiopI",
+          "maestro-03": "AIzaSyCXypU3lF_iacmvk3-jFZxxdG9pRKf1L0U",
+          "maestro-04": "AIzaSyAJC130PKlnDX7YDilkSO03mG9y6XILbvI",
+          "maestro-05": "AIzaSyCite5U4xlM98d9AJ_0--BijwqXvHBMIm8",
+        },
+        FIREBASE_PRIMARY_SHARD: "lessthan3",
+        GOOGLE_CLOUD_STORAGE_VIDEO_UPLOAD_URL:
+          "https://storage.googleapis.com/maestro_video_uploads",
+        LEGACY_DOMAIN: "www.maestro.io",
+        LEGACY_QUEST_CLAIM_BASE_URL:
+          "https://us-central1-firebase-lessthan3.cloudfunctions.net/quests/v3",
+        MEDIA_ASSETS_BASE_URL: "https://static.maestro.io/media",
+        MODE: "production",
+        OBJECT: {
+          _id: "5fc57c7107108cac82a9e325",
+          collection: "pages",
+          created: 1606778095022,
+          data: {
+            channelSelectActiveImageUrl:
+              "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f9c627d70731a00a5678ac2.png",
+            content: {
+              offline: {
+                kind: "video",
+                mode: "tv",
+                video: { _id: "5fff2ca74e0c7cc87db6d094" },
+              },
+            },
+            countdown: {
+              startTime:
+                "Fri Feb 05 2021 00:00:00 GMT-0800 (Pacific Standard Time)",
+              title: "Countdown",
+            },
+            gate: {
+              active: true,
+              gate: {
+                cantFindHelpText: "Contact support@maestro.io for help",
+                hiddenEntitlements: [
+                  "wavecodeforasics",
+                  "wavebonuscodes-awl",
+                  "spotify-presale",
+                ],
+                kind: "subscription",
+                subscriptionGateBackgroundMobile:
+                  "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdc10f1b5106900a536dcde.jpg",
+                subscriptionGateBackgroundWeb:
+                  "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdc10ec88e9d000a6d342e3.jpg",
+                subscriptionSubtitle:
+                  "Wave presents WONDERVERSE, a live interactive show filled with magic, awe-inspiring spells, and transformative visuals...WTF! Unlike any live streamed show you've experienced, WONDERVERSE is a one-of-a-kind immersive event where VIRTUALLY ANYTHING can happen. WONDERVERSE is set in a fantastical underworld forest where you and Alison Wonderland will party and interact with each other like NEVER BEFORE. Interact with Alison LIVE, cast crazy spells, hear NEW MUSIC, check out EXCLUSIVE BEHIND THE SCENES & more!",
+                subscriptionTimestamp: 1612576800000,
+                subscriptionTitle: "Alison Wonderland",
+                subscriptions: [
+                  {
+                    name: "Presale on Now!",
+                    previewDurationSeconds: 300,
+                    price: 10,
+                    sku: "spotify-presale",
+                  },
+                  {
+                    name: "WaveCodeForASICS",
+                    previewDurationSeconds: 300,
+                    price: 1,
+                    sku: "wavecodeforasics",
+                  },
+                  {
+                    name: "WaveBonusCodes_AWL",
+                    previewDurationSeconds: 300,
+                    price: 1,
+                    sku: "wavebonuscodes-awl",
+                  },
+                  {
+                    name: "General Sale",
+                    previewDurationSeconds: 300,
+                    price: 15,
+                    sku: "awl-general-sale",
+                  },
+                ],
+              },
+              kind: "subscription",
+            },
+            name: "Alison Wonderland",
+          },
+          lastModified: 1610558723048,
+          seo: {
+            description:
+              "Wave presents WONDERVERSE, a live interactive show filled with magic, awe-inspiring spells, and transformative visuals...WTF! Unlike any live streamed show you've experienced, WONDERVERSE is a one-of-a-kind immersive event where VIRTUALLY ANYTHING can happen.",
+            image:
+              "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fea32016058a000a51f3ea9.png",
+            keywords:
+              "alison wonderland wave virtual concert edm interactive wonderverse",
+            title: "Alison Wonderland",
+          },
+          siteId: "5f233f36b7ec31002c3331e2",
+          slug: "alison-wonderland",
+          type: "channel",
+          activeRenderers: { sidebar: true },
+          renderers: {
+            sidebar: {
+              items: [{ arrayId: "njlsDbTcS", id: "5fdd0179f6f892c0f7c975a8" }],
+            },
+          },
+        },
+        OVERLAY_QUEUES: ["queue:overlay:0", "queue:overlay:1"],
+        SERVICE_BASE_URL: "https://api.maestro.io",
+        SHOPIFY_API_KEY: "4c5479ca350b827014a5d20bd5ea2bb3",
+        SITE: {
+          _id: "5f233f36b7ec31002c3331e2",
+          collections: {
+            ads: { slug: "ads" },
+            articles: { slug: "articles" },
+            categories: { slug: "category" },
+            channels: { slug: "channel" },
+            episodes: { slug: "episode" },
+            panelSets: { slug: "panel_set" },
+            panels: { slug: "panel" },
+            people: { slug: "person" },
+            playlists: { slug: "playlist" },
+            polls: { slug: "poll" },
+            shows: { slug: "show" },
+            tags: { slug: "tag" },
+            videos: { slug: "video" },
+          },
+          deviceLimit: 3,
+          features: {
+            achievements: true,
+            codeInjection: true,
+            panels: {
+              allAccess: false,
+              fortniteDuosLeaderboard: false,
+              fortniteDuosMatch: false,
+              fortnitePlayByPlay: false,
+              pubgMatch: false,
+            },
+            revenue: true,
+            shopify: true,
+            streaming: true,
+            subscriptions: false,
+            vodUploads: true,
+          },
+          lastModified: 1610747863699,
+          mentor: {
+            addSocials: true,
+            finish: true,
+            initTheme: true,
+            pickTheme: true,
+            welcome: true,
+            welcomeUser: true,
+          },
+          name: "wavexr",
+          package: { core: "3.0.2", id: "maestro", version: "4.06.0" },
+          regions: {
+            "channel-select": {
+              pages: [
+                {
+                  arrayId: "2CdG4TUbB",
+                  image: "",
+                  page: {
+                    _id: "5fa9b9565ec804041af405f0",
+                    seo: { title: "AWS IVS Stream" },
+                    slug: "aws-test",
+                  },
+                },
+                {
+                  arrayId: "kJ-JKRmqm0",
+                  image: "",
+                  page: {
+                    _id: "5fa97474e714988d6919b1a5",
+                    seo: { title: "LimeLight Stream" },
+                    slug: "limelight-test",
+                  },
+                },
+              ],
+              state: "off",
+            },
+            featured: {
+              background: "",
+              pages: [
+                {
+                  image:
+                    "http://www.maestro.io/media/55134cb75909c93a071ed150/welcome.png",
+                  imageActive:
+                    "http://www.maestro.io/media/55134d0f2ba5513c0775e69c/welcome-a.png",
+                  page: {
+                    _id: "5511e1731dcc607e4b6bd18e",
+                    seo: { title: "Welcome to Maestro" },
+                    slug: "",
+                  },
+                },
+                {
+                  image:
+                    "http://www.maestro.io/media/55134d1f2ba5513c0775e69d/tuts.png",
+                  imageActive:
+                    "http://www.maestro.io/media/55134d242ba5513c0775e69e/tuts-a.png",
+                  page: {
+                    _id: "5511f3d2dcab55dc5ec0b257",
+                    seo: { title: "Tutorials" },
+                    slug: "tutorials",
+                  },
+                },
+                {
+                  image:
+                    "http://www.maestro.io/media/55134da0fa86f0e025ce1a2d/blog.png",
+                  imageActive:
+                    "http://www.maestro.io/media/55134da72ba5513c0775e69f/blog-a.png",
+                  page: {
+                    _id: "5511f3c95425a7de5ef40642",
+                    seo: { title: "Blog" },
+                    slug: "blog",
+                  },
+                },
+                {
+                  image:
+                    "http://www.maestro.io/media/55134dbaae950be225dbcf5a/contact.png",
+                  imageActive:
+                    "http://www.maestro.io/media/55134dc297804de525adc35e/contact-a.png",
+                  page: {
+                    _id: "5511f2621dcc607e4b6bd196",
+                    seo: { title: "Contact" },
+                    slug: "contact",
+                  },
+                },
+              ],
+              state: "on",
+            },
+            footer: {
+              actions: [
+                {
+                  content: {
+                    html: "",
+                    image: "[object Object]",
+                    kind: "link",
+                    url: "http://www.facebook.com/lessthan3",
+                  },
+                  display: {
+                    icon: "facebook",
+                    image: "",
+                    kind: "icon",
+                    text: "",
+                  },
+                  icon: "facebook",
+                  kind: "link",
+                  name: "Facebook",
+                  url: "",
+                },
+                {
+                  content: {
+                    0: {
+                      content: {
+                        image: "",
+                        kind: "link",
+                        url: "https://www.facebook.com/assassinscreedUS",
+                      },
+                      icon: "facebook",
+                      text: "facebook",
+                    },
+                    html: "",
+                    image: "",
+                    kind: "link",
+                    menu: [
+                      {
+                        content: {
+                          image: "",
+                          kind: "link",
+                          url: "https://www.facebook.com/assassinscreedUS",
+                        },
+                        icon: "facebook",
+                        text: "facebook",
+                      },
+                      {
+                        content: {
+                          image:
+                            "https://cloud.githubusercontent.com/assets/7318952/5173491/f1e1c818-73dd-11e4-9d36-38e8db3a3cfb.jpg",
+                          kind: "image",
+                          url: "",
+                        },
+                        icon: "airport",
+                        text: "do it!",
+                      },
+                    ],
+                    url: "http://www.twitter.com/lessthan3",
+                  },
+                  display: {
+                    icon: "twitter",
+                    image: "",
+                    kind: "icon",
+                    text: "menu",
+                  },
+                  icon: "twitter",
+                  kind: "link",
+                  name: "Twitter",
+                  url: "",
+                },
+              ],
+              background: "/media/560ebb6ed24876b52608c87f/footer.jpg",
+              footerLinks: [
+                {
+                  arrayId: "ZXApNuUtj",
+                  kind: "text_link",
+                  name: "Wave TOS",
+                  text: "Terms of Service",
+                  url: "https://wavexr.com/terms-of-service/",
+                },
+              ],
+              hashtag: "",
+              links: [
+                {
+                  icon: "facebook",
+                  image: "",
+                  kind: "icon",
+                  name: "Facebook",
+                  text: "",
+                  url: "https://www.facebook.com/assassinscreedUS",
+                },
+                {
+                  icon: "twitter",
+                  image: "",
+                  kind: "icon",
+                  name: "Twitter",
+                  text: "",
+                  url: "https://twitter.com/assassinscreed",
+                },
+                {
+                  icon: "",
+                  image: "",
+                  kind: "text",
+                  name: "Test",
+                  text: "test",
+                  url: "https://www.facebook.com/assassinscreedUS",
+                },
+              ],
+              newsletter: {
+                html:
+                  '\u003C!-- Begin MailChimp Signup Form --\u003E\n\u003Clink href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"\u003E\n\u003Cstyle type="text/css"\u003E\n\t#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }\n\t/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n\u003C/style\u003E\n\u003Cdiv id="mc_embed_signup"\u003E\n\u003Cform action="//3lau.us4.list-manage.com/subscribe/post?u=552fdb080c622ff048da9ed13&amp;id=a18a41d6b1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate\u003E\n    \u003Cdiv id="mc_embed_signup_scroll"\u003E\n\t\u003Clabel for="mce-EMAIL"\u003ESubscribe to our mailing list\u003C/label\u003E\n\t\u003Cinput type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required\u003E\n    \u003C!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--\u003E\n    \u003Cdiv style="position: absolute; left: -5000px;"\u003E\u003Cinput type="text" name="b_552fdb080c622ff048da9ed13_a18a41d6b1" tabindex="-1" value=""\u003E\u003C/div\u003E\n    \u003Cdiv class="clear"\u003E\u003Cinput type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"\u003E\u003C/div\u003E\n    \u003C/div\u003E\n\u003C/form\u003E\n\u003C/div\u003E\n\n\u003C!--End mc_embed_signup--\u003E',
+                kind: "input",
+                text: "Sign up to receive updates!",
+              },
+              sharing: [
+                {
+                  description: "description",
+                  hashtag: "",
+                  image: "",
+                  kind: "facebook",
+                  name: "Share",
+                  text: "",
+                  title: "title",
+                  tweetText: "",
+                },
+                {
+                  description: "",
+                  hashtag: "#testing",
+                  image: "",
+                  kind: "twitter",
+                  name: "Tweet",
+                  text: "",
+                  title: "",
+                  tweetText: "tweet",
+                },
+                {
+                  description: "",
+                  hashtag: "",
+                  image: "",
+                  kind: "google",
+                  name: "Google",
+                  text: "test",
+                  title: "",
+                  tweetText: "",
+                },
+              ],
+              socials: [
+                {
+                  arrayId: "r5t7_Kv1g",
+                  icon: "facebook",
+                  title: "facebook",
+                  url: "https://www.facebook.com/TheWaveXR/",
+                },
+                {
+                  arrayId: "AVu7QTNC9",
+                  icon: "twitter",
+                  title: "twitter",
+                  url: "https://twitter.com/TheWaveXR",
+                },
+                {
+                  arrayId: "wRXVfM4dq",
+                  icon: "instagram",
+                  title: "instagram",
+                  url: "https://www.instagram.com/thewavexr/",
+                },
+              ],
+              sponsors: [
+                {
+                  arrayId: "5af0d3f7-a197-4f73-910b-d162f09de248",
+                  image:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f233f36b7ec31002c3331ed.png",
+                  link: "",
+                },
+                {
+                  arrayId: "c2601519-9392-4826-8886-40dc17984a83",
+                  image:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f9c62cb8f884a00a6f3b873.png",
+                  link: "https://wavexr.com/",
+                },
+              ],
+              state: "on",
+              tweetMessage: "",
+            },
+            header: {
+              authentication: {
+                battlenet: false,
+                coachella: false,
+                facebook: false,
+                faceit: false,
+                maestro: true,
+                openid: false,
+                origin: false,
+                playstation: false,
+                twitch: false,
+                uplay: false,
+                wargaming: false,
+                xbox: false,
+              },
+              background: "/media/560ebb366ab1c01e04b2434d/header.jpg",
+              defaultLogo: {
+                logoLink: "https://wavexr.com/",
+                logoMobile:
+                  "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f9c627d70731a00a5678ac2.png",
+                logoTitle: "Wave",
+                logoWeb:
+                  "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f9c62cb8f884a00a6f3b873.png",
+              },
+              defaultProfile: "",
+              logo: "/media/5bd8a5e6403cb20c0055f984/maestro-logo-dark-rgb.png",
+              logoLink: "/",
+              mobile: {
+                background: "",
+                logo:
+                  "http://www.maestro.io/media/54aad4e754b6d9f56104688b/intl-ces-1.png",
+              },
+              mobileLogo: "",
+              profileImages: [
+                {
+                  image:
+                    "http://www.maestro.io/media/57ae56f58f5246d573806aae/maestro-avatar-circle.jpg",
+                  title: "Circle",
+                  url:
+                    "/media/57a3d03b50d4fc6865b2ddcc/maestro-avatar-triangle.jpg",
+                },
+                {
+                  image:
+                    "http://www.maestro.io/media/57ae5700d4b7f297114b12bd/maestro-avatar-hexagon.jpg",
+                  title: "Hexagon",
+                  url:
+                    "/media/57a3d03b1f398c133b019924/maestro-avatar-pentagon.jpg",
+                },
+                {
+                  image:
+                    "http://www.maestro.io/media/57ae5712365f7c9b3d68c96a/maestro-avatar-pentagon.jpg",
+                  title: "Pentagon",
+                  url:
+                    "/media/57a3d03b7e5711753824115f/maestro-avatar-hexagon.jpg",
+                },
+                {
+                  image:
+                    "http://www.maestro.io/media/57ae5720d4b7f297114b12be/maestro-avatar-square.jpg",
+                  title: "Square",
+                  url:
+                    "/media/57a3d03b5d38c19670feb9d1/maestro-avatar-circle.jpg",
+                },
+                {
+                  image:
+                    "http://www.maestro.io/media/57ae572ddf26c9d373beb1cc/maestro-avatar-triangle.jpg",
+                  title: "Triangle",
+                  url:
+                    "/media/57a3d03b5d38c19670feb9d2/maestro-avatar-square.jpg",
+                },
+              ],
+              state: "on",
+            },
+            navigation: { state: "on" },
+            player: {
+              autoplayYoutube: true,
+              showVideoEmbed: false,
+              showVideoTitle: false,
+              showVideoUrl: true,
+              socials: {
+                facebook: { active: true },
+                twitter: { active: true },
+              },
+            },
+          },
+          settings: {
+            allowNewAdmin: true,
+            codeInjection: {
+              body: "",
+              // "\u003C!-- test tracking--\u003E\n\u003Cimg src=\"https://api.segment.io/v1/pixel/track?data=ewogICJ3cml0ZUtleSI6ICI2SVFJODhHN0h6YW1KODgwcXZQVDhHNnVZZFhTOXRRbiIsCiAgInVzZXJJZCI6ICJXYXZlVGVzdFVzZXIwMTIzIiwKICAiZXZlbnQiOiAiUGFnZSBMb2FkZWQiLAogICJwcm9wZXJ0aWVzIjogewogICAgInNob3ciOiAiTGluZHNleSBTdGlybGluZyIKICB9Cn0K\" style=\"display:none\"\u003E\n\n\u003C!-- Facebook Pixel Code --\u003E\n\u003Cscript\u003E\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;\nn.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,\ndocument,'script','https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '1024129180947932'); // Insert your pixel ID here.\nfbq('track', 'PageView');\n\u003C/script\u003E\n\u003Cnoscript\u003E\u003Cimg height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=1024129180947932&ev=PageView&noscript=1\"\n/\u003E\u003C/noscript\u003E\n\u003C!-- DO NOT MODIFY --\u003E\n\u003C!-- End Facebook Pixel Code --\u003E\n\n\u003Cscript\u003E\nfunction setupBrands() {\n  var gateEntitlement = document.getElementById(\"gate-entitlement\");\n  if(gateEntitlement) {\n\n      var html = '\u003Cdiv\u003E';\n         html += '\u003Ca href=\"https://www.asics.com/us/en-us/sportstyle-collections/c/aa50200000/?utm_campaign=2021-wave&utm_source=wave&utm_medium=referral&utm_content=RegistrationPage\"\u003E';\n         html += '\u003Cimg alt=\"Asics\" src=\"https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fda681f2b790200a5ac04c6.png\" class=\"ns-wxr-asics\"\u003E';\n         html += '\u003C/a\u003E';\n\n         html += '\u003Ca href=\"https://www.electricfamily.com/collections/alison-wonderland-merch?utm_source=wave&utm_medium=page%20link&utm_campaign=AW_stream\"\u003E';\n         html += '\u003Cimg alt=\"Electric Family\" src=\"https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fda681c34110900a5fb4d9f.png\" class=\"ns-wxr-electric-family\"\u003E';\n         html += '\u003C/a\u003E';\n         html += '\u003C/div\u003E';\n\n      gateEntitlement.insertAdjacentHTML('beforeend', html);\n  }\n}\nwindow.addEventListener(\"load\", setupBrands);\n\u003C/script\u003E",
+              header: "",
+              // '\u003Cstyle\u003E \n  .ns-wxr-asics {\n      width: 89px;\n      height: 35px;\n      display: inline;\n      margin-right: 20px;\n      margin-top: 20px;\n  }\n \n.buy {\n  background: #FF5150 !important;\n  color: #FFFFFF !important;\n  transition: background 1s, color 1s;\n}\n\n.buy:hover {\n background: rgb(45, 255, 255) !important;\ncolor: #FF5150 !important;\n}\n\n.eiWiDp {\nmax-width: 300px !important;\n}\n\n.dbwCcs {\n color: rgb(45, 255, 255) !important;\n}\n\n  .ns-wxr-electric-family {\n      width: 89px;\n      height: 46px;\n      display: inline;\n  }\n\n/*\n.fgNFBH {\n      background-image: url("https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdc10ec88e9d000a6d342e3.jpg");\n} */\n\n\n\n\n\u003C/style\u003E\n\n\u003Cscript src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"\u003E\u003C/script\u003E\n\u003Cscript src="https://d1luus64m5anll.cloudfront.net/2020-12/d7a06a78288614573a20c8dbadc50fab/v1/scripts/username_code_injection.js"\u003E\u003C/script\u003E',
+            },
+            customerProfile: {
+              logo:
+                "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdbd70fb6850f00a5ff85f5.png",
+              name: "Wave",
+            },
+            defaultStreamingProvider: "phenix",
+            deviceLimit: 3,
+            domain: { url: "live.wavexr.com" },
+            email: {
+              closing: "Thank You!",
+              copyright: "LessThan3, Inc",
+              from: "LessThan3",
+              mailingAddress:
+                "LessThan3, Inc.\n1181 Oak Street\nSan Francisco, CA 94117",
+              signature: "The LessThan3 Crew",
+            },
+            events: [{ from: 1509598788, name: "Test Event", to: 1509685188 }],
+            homeId: "5fc57c7107108cac82a9e325",
+            icons: {
+              apple167X167:
+                "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f63db3913298500a59077d2.png",
+              apple180X180:
+                "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f63db3c13298500a59077d3.png",
+              favicon:
+                "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f63db84e48aa000a5441bc3.png",
+              favicon128X128:
+                "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f63db3fe48aa000a5441bc2.png",
+              favicon196X196:
+                "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f63d99c13298500a59077d0.png",
+              favicon228X228:
+                "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f63d99913298500a59077cf.png",
+            },
+            localization: { allowAutotranslate: true, baseLanguage: "en" },
+            login: {
+              marketingOptin: true,
+              marketingOptinLabel:
+                "Wave would like to send you reminder notifications for shows you have purchased.",
+              privacy: "",
+              terms: "",
+              text:
+                "Login or create a new account below to watch the Wave alpha show! ",
+            },
+            minimumConcurrents: 0,
+            security: { password: "" },
+            services: {
+              googleAnalyticsId: "UA-155214779-5",
+              insightsId:
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkIjp7Il9pZCI6IjVmMjMzZjM2YjdlYzMxMDAyYzMzMzFlMiIsImNyZWF0ZWQiOjE2MDc0NTk3MDIuMTQ4LCJzbHVnIjoid2F2ZXhyIiwidWlkIjoic2l0ZV90b2tlbiJ9LCJpYXQiOjE2MDc0NTk3MDJ9.GS0rBgjc8izjzPgphdbSTzl1xg77YyIOn2d6nhozMLg",
+            },
+            showConcurrents: true,
+            transitions: { mobile: "slide", web: "roll" },
+            "user-segments": [
+              {
+                data: [
+                  { kind: "time", type: "all_time" },
+                  { kind: "location", location: "United States" },
+                ],
+                name: "US Viewers",
+              },
+            ],
+            userProfiles: {
+              changeName: true,
+              profileImages: [
+                {
+                  isAdmin: false,
+                  url:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdbab9cb6850f00a5ff85e5.png",
+                },
+                {
+                  isAdmin: false,
+                  url:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdc061f88e9d000a6d342dd.gif",
+                },
+                {
+                  isAdmin: false,
+                  url:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdc062588e9d000a6d342de.gif",
+                },
+                {
+                  isAdmin: false,
+                  url:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdc06d7b5106900a536dcd8.gif",
+                },
+                {
+                  isAdmin: false,
+                  url:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdc06dab5106900a536dcd9.gif",
+                },
+                {
+                  isAdmin: false,
+                  url:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdcdb1488e9d000a6d342f1.gif",
+                },
+                {
+                  isAdmin: true,
+                  url:
+                    "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdcdb1f88e9d000a6d342f2.png",
+                },
+              ],
+            },
+            welcomeScreen: {
+              active: false,
+              duration: 10,
+              image:
+                "https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f4956b794c5f400a5b52a31.png",
+            },
+          },
+          shards: [
+            "lessthan3",
+            "maestro-01",
+            "maestro-02",
+            "maestro-03",
+            "maestro-04",
+            "maestro-05",
+            "lessthan3-00",
+            "lessthan3-01",
+            "lessthan3-02",
+            "lessthan3-03",
+            "lessthan3-04",
+            "lessthan3-05",
+            "lessthan3-06",
+            "lessthan3-07",
+            "lessthan3-08",
+            "lessthan3-09",
+          ],
+          slug: "wavexr",
+          style: {
+            activeColor: "#2f2f2f",
+            activeTextColor: "#f9f9f9",
+            background: "#009800",
+            backgroundColor: "#0f0f0f",
+            bodyFont: "itc-avant-garde-pro-book",
+            channelSelectColor: "#3349c1",
+            contentBackgroundColor: "#000000",
+            contentTextColor: "#f9f9f9",
+            countdownTextColor: "#2dffff",
+            font: "gotham",
+            footerLinksColor: "#f9f9f9",
+            kind: "advanced",
+            navigationTextColor: "#f9f9f9",
+            socialLinksColor: "#f9f9f9",
+            theme: "maestro",
+            titleBackgroundColor: "#2f2f2f",
+            titleFont: "itc-avant-garde-pro-bold",
+            titleTextColor: "#f9f9f9",
+          },
+          users: {},
+          created: 1596145464013,
+          modified: 1609103795933,
+          tags: [],
+        },
+        SITE_ID: "5f233f36b7ec31002c3331e2",
+        SITE_SHARDS: [
+          "lessthan3",
+          "maestro-01",
+          "maestro-02",
+          "maestro-03",
+          "maestro-04",
+          "maestro-05",
+          "lessthan3-00",
+          "lessthan3-01",
+          "lessthan3-02",
+          "lessthan3-03",
+          "lessthan3-04",
+          "lessthan3-05",
+          "lessthan3-06",
+          "lessthan3-07",
+          "lessthan3-08",
+          "lessthan3-09",
+        ],
+        TWITCH_CLIENT_ID: "ue3l0u4orord4ccia2rx1u61y9x965",
+        UPLOAD_SERVICE_BASE_URL: "https://upload.maestro.io",
+      };
+    </script>
+    <link
+      href="//www.maestro.io/pkg/fontello/maestro-icons/public/css/fontello-embedded.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//www.maestro.io/pkg/fontello/maestro-icons/public/css/animation.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://live.wavexr.com/static/css/1.app.0a1a7d1.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://live.wavexr.com/static/css/2.app.0a1a7d1.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://live.wavexr.com/static/css/197.app.0a1a7d1.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5f63db84e48aa000a5441bc3.png"
+    />
+    <title>Alison Wonderland</title>
+    <meta
+      name="description"
+      content="Wave presents WONDERVERSE, a live interactive show filled with magic, awe-inspiring spells, and transformative visuals...WTF! Unlike any live streamed show you've experienced, WONDERVERSE is a one-of-a-kind immersive event where VIRTUALLY ANYTHING can happen."
+    />
+    <meta
+      name="keywords"
+      content="alison wonderland wave virtual concert edm interactive wonderverse"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="application-name" content="Alison Wonderland" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta charset="UTF-8" />
+    <meta name="google" content="notranslate" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      property="og:description"
+      content="Wave presents WONDERVERSE, a live interactive show filled with magic, awe-inspiring spells, and transformative visuals...WTF! Unlike any live streamed show you've experienced, WONDERVERSE is a one-of-a-kind immersive event where VIRTUALLY ANYTHING can happen."
+    />
+    <meta
+      property="og:image"
+      content="https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fea32016058a000a51f3ea9.png"
+    />
+    <meta property="og:site_name" content="Alison Wonderland" />
+    <meta property="og:title" content="Alison Wonderland" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="live.wavexr.com" />
+    <meta name="twitter:title" content="Alison Wonderland" />
+    <meta name="twitter:domain" content="live.wavexr.com" />
+    <meta
+      name="twitter:description"
+      content="Wave presents WONDERVERSE, a live interactive show filled with magic, awe-inspiring spells, and transformative visuals...WTF! Unlike any live streamed show you've experienced, WONDERVERSE is a one-of-a-kind immersive event where VIRTUALLY ANYTHING can happen."
+    />
+    <meta
+      name="twitter:image"
+      content="https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fea32016058a000a51f3ea9.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <style>
+      .ns-wxr-asics {
+        width: 89px;
+        height: 35px;
+        display: inline;
+        margin-right: 20px;
+        margin-top: 20px;
+      }
+
+      .buy {
+        background: #ff5150 !important;
+        color: #ffffff !important;
+        transition: background 1s, color 1s;
+      }
+
+      .buy:hover {
+        background: rgb(45, 255, 255) !important;
+        color: #ff5150 !important;
+      }
+
+      .eiWiDp {
+        max-width: 300px !important;
+      }
+
+      .dbwCcs {
+        color: rgb(45, 255, 255) !important;
+      }
+
+      .ns-wxr-electric-family {
+        width: 89px;
+        height: 46px;
+        display: inline;
+      }
+
+      /*
+.fgNFBH {
+      background-image: url("https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fdc10ec88e9d000a6d342e3.jpg");
+} */
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://d1luus64m5anll.cloudfront.net/2020-12/d7a06a78288614573a20c8dbadc50fab/v1/scripts/username_code_injection.js"></script> -->
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="/static/js/app.0a1a7d1.js"
+      defer="defer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/static/js/chunks/admin.0075791.js"
+      defer="defer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/static/js/chunks/vendor.0176105.js"
+      defer="defer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/static/js/chunks/main.8cc1b77.js"
+      defer="defer"
+    ></script>
+    <!-- test tracking-->
+    <img
+      src="https://api.segment.io/v1/pixel/track?data=ewogICJ3cml0ZUtleSI6ICI2SVFJODhHN0h6YW1KODgwcXZQVDhHNnVZZFhTOXRRbiIsCiAgInVzZXJJZCI6ICJXYXZlVGVzdFVzZXIwMTIzIiwKICAiZXZlbnQiOiAiUGFnZSBMb2FkZWQiLAogICJwcm9wZXJ0aWVzIjogewogICAgInNob3ciOiAiTGluZHNleSBTdGlybGluZyIKICB9Cn0K"
+      style="display: none"
+    />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1024129180947932"); // Insert your pixel ID here.
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1024129180947932&amp;ev=PageView&amp;noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+
+    <script>
+      function setupBrands() {
+        var gateEntitlement = document.getElementById("gate-entitlement");
+        if (gateEntitlement) {
+          var html = "<div>";
+          html +=
+            '<a href="https://www.asics.com/us/en-us/sportstyle-collections/c/aa50200000/?utm_campaign=2021-wave&utm_source=wave&utm_medium=referral&utm_content=RegistrationPage">';
+          html +=
+            '<img alt="Asics" src="https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fda681f2b790200a5ac04c6.png" class="ns-wxr-asics">';
+          html += "</a>";
+
+          html +=
+            '<a href="https://www.electricfamily.com/collections/alison-wonderland-merch?utm_source=wave&utm_medium=page%20link&utm_campaign=AW_stream">';
+          html +=
+            '<img alt="Electric Family" src="https://static.maestro.io/media/5f233f36b7ec31002c3331e2/5fda681c34110900a5fb4d9f.png" class="ns-wxr-electric-family">';
+          html += "</a>";
+          html += "</div>";
+
+          gateEntitlement.insertAdjacentHTML("beforeend", html);
+        }
+      }
+      window.addEventListener("load", setupBrands);
+
+      // Find background image element
+      function getBackgroundImage() {
+        var imgs = document.getElementsByTagName("img");
+        var bgImg;
+        var invertedImg;
+        for (var i = 0; i < imgs.length; i++) {
+          if (imgs[i].className.indexOf("Background") >= 0) {
+            bgImg = imgs[i];
+          }
+        }
+        bgImg.crossOrigin = "Anonymous";
+        return bgImg;
+      }
+
+      // Init canvas background
+      function initCanvas() {
+        var bgImg = getBackgroundImage();
+        var c = document.createElement("canvas");
+        document.body.appendChild(c);
+        var ctx = c.getContext("2d");
+
+        bgImg.onload = () => {
+          draw();
+          animation();
+        };
+
+        function draw() {
+          var bgImg = getBackgroundImage();
+
+          // Canvas should be the same size of the photo as it appears rendered
+          c.width = bgImg.width;
+          c.height = bgImg.height;
+
+          // Intrinsic dims of the AWL background
+          var img = { width: 1920, height: 1200 };
+
+          // Setup canvas to overlay but not consume mouse events
+          c.style.opacity = 0;
+          c.style.position = "absolute";
+          c.style.paddingTop = "100px";
+          c.style.pointerEvents = "none";
+
+          // Mimic CSS cover behavior
+          var scale = Math.max(c.width / img.width, c.height / img.height);
+          var x = c.width / 2 - (img.width / 2) * scale;
+          var y = c.height / 2 - (img.height / 2) * scale;
+
+          // Draw image to the canvas
+          ctx.drawImage(bgImg, x, y, img.width * scale, img.height * scale);
+
+          // Invert colors of the canvas
+          var imgData = ctx.getImageData(0, 0, c.width, c.height);
+          var i;
+          for (i = 0; i < imgData.data.length; i += 4) {
+            imgData.data[i] = 255 - imgData.data[i];
+            imgData.data[i + 1] = 255 - imgData.data[i + 1];
+            imgData.data[i + 2] = 255 - imgData.data[i + 2];
+            imgData.data[i + 3] = 255;
+          }
+          invertedImg = imgData.data;
+          // Draw inverted image
+          ctx.putImageData(imgData, 0, 0);
+        }
+
+        function animation() {
+          var start = performance.now();
+          var stop;
+          var flickers = 0;
+          var flicker = false;
+          var flickerWave;
+          function animate() {
+            requestAnimationFrame(animate);
+            stop = performance.now();
+            c.style.filter = `hue-rotate(${stop * 0.1}deg)`;
+
+            // Start flickering after 10000ms
+            if (stop - start > 1000) {
+              flicker = true;
+            }
+
+            // Flickering logic
+            if (flicker) {
+              // Smooth out flicker transition
+              var wave = Math.sin(flickers * 0.01);
+              c.style.opacity = wave;
+
+              // After x flickers, stop
+              flickers += 0.1;
+              if (flickers > 1000) {
+                // Reset flicker params
+                c.style.opacity = 0;
+                flickers = 0;
+                flicker = false;
+                start = performance.now();
+              }
+            }
+          }
+          animate();
+        }
+        window.addEventListener("resize", draw);
+      }
+      document.addEventListener("DOMContentLoaded", initCanvas);
+    </script>
+  </body>
+</html>
